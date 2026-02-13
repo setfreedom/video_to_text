@@ -27,7 +27,7 @@ def analyze_video(dialogues):
 """
 
     resp = client.chat.completions.create(
-        model="qwen-plus",
+        model="qwen-turbo",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.3
     )

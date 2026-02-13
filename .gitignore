@@ -1,2 +1,5 @@
 # 忽略虚拟环境目录
 venv/
+1.mp4
+input.mp4
+outputs/
